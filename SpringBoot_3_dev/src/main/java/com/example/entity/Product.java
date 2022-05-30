@@ -1,17 +1,9 @@
-package com.example.com.entity;
+package com.example.entity;
 
 public class Product {
 	private Integer productId;
 	private String productName;
 	private Integer price;
-	
-	public Product() {}
-	
-	public Product(Integer id, String name, Integer price) {
-		this.productId = id;
-		this.productName = name;
-		this.price = price;
-	}
 	
 	public Integer getProductId() {
 		return productId;
@@ -30,9 +22,6 @@ public class Product {
 	}
 	public void setPrice(Integer price) {
 		this.price = price;
-	}
-	public String getProductInfo() {
-		return "product_id="+productId+", product_name="+productName+", price="+price;
 	}
 	
 	
